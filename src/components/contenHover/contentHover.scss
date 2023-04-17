@@ -1,0 +1,114 @@
+.dropDownmenu1Wrapper{
+
+    position: absolute;
+    padding-top: 5px;
+     display: flex;
+
+     .left{
+         
+         flex:2.3;
+         display: flex;
+        justify-content: space-around;
+        padding-left: 20px;
+        padding-right: 20px;
+         .content{
+          padding-left: 25px;
+         }
+         .item{
+             display: flex;
+             justify-content: flex-end;
+             color:  black ;
+             cursor: pointer;
+            height: 30px;
+             width: 185px;
+             padding: 0 10px 0px 0;
+             span{
+                font-weight: 700;
+                font-size: 13px;
+             }
+             
+            &:hover{
+             color: #00b0ff;
+             background-color: #eee;
+             
+             
+            } 
+            
+         }
+     }
+    .right-menu-top{
+     flex: 15;
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+     .rightTop{
+        position: relative;
+         display: flex;
+         align-items: center;
+         justify-content: space-around;
+         gap: 18px;      
+         .item-menu-right{
+            position: relative;
+             display: flex;
+            justify-content: space-around;            
+             width: 190px;
+             .imgg{
+              .catt{
+                font-size: 10px;
+                font-weight: 500;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background-color: black;
+                color: antiquewhite;
+                position:absolute;
+                cursor: pointer;
+               left: 1px;
+               bottom: 58px;
+               height: 22px;
+               width: 70px;               
+                &:hover{
+                    background-color: #00b0ff;
+                }
+            }
+                img{
+                  height: 125px;
+                    width: 185px;                        
+                   cursor: pointer;                
+                   opacity: 0.8;
+                   transition: opacity 0.5s ease-in-out;                
+                   &:hover {
+                     opacity: 1;
+                   }                                     
+                     }
+                &:hover{
+                  color: #00b0ff;
+                }
+             }
+             
+         } 
+         .button-container {      
+            position: absolute;
+            top: 5px;
+            right: 5px;
+            width: 70px;
+            display: flex;
+            justify-content: space-around;
+          }
+          .button-1, .button-2{
+            border: none;
+            color: white;
+            width: 30px;
+            background-color: rgba(0, 0, 0, 0.2) ;
+          }
+          .button-1:hover, .button-2:hover {
+            color: white;
+            background-color: rgba(0, 0, 0, 0.5); /* mã màu của màu nền mới */
+            cursor: pointer; /* thêm kiểu con trỏ khi di chuột qua */
+            
+          }
+          
+     }
+    } 
+
+  } 

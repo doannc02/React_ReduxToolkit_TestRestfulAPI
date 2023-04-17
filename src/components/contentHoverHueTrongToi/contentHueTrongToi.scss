@@ -1,0 +1,8 @@
+.contentHueTrongToi {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    transform: translateY(-10px);
+    opacity: 0;
+    transition: transform 0.2s ease-in-out, opacity 0.2s ease-in-out;
+  }

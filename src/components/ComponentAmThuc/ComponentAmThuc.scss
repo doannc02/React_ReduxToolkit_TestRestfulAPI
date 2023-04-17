@@ -1,0 +1,68 @@
+.containerAmThuc {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 230px 230px;
+    grid-gap: 5px;
+ 
+    .boxx {
+        
+     height: 100%; /* Thay đổi kích thước để phù hợp với ô grid */
+      width: 100%;
+        position: relative;
+      &:nth-child(1) {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 3;
+        height: 580px;
+      }
+  
+      &:nth-child(2) {
+        grid-column-start: 2;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        height: 290px;
+      }
+  
+      &:nth-child(3) {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        height: 287px;
+      }
+  
+      &:nth-child(4) {
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        height: 287px;
+      }
+  
+      .imgAmThuc {
+        width: 100%;
+        height: 80%; /* Chỉ hiển thị một phần của hình ảnh */
+        overflow: hidden; /* Ẩn phần hình ảnh bị tràn ra ngoài khung */
+      }
+     
+  
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+      }
+      .textAT{
+        position: absolute;
+        bottom: 130px;
+        left: 10px;
+      }
+      .titleBg{
+        font-weight: 500;
+        font-size: 18px;  
+    color: white;    }
+    }
+  }
+  

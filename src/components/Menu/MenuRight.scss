@@ -1,0 +1,12 @@
+.rightTop {
+    opacity: 0;
+    transform: translateY(10px);
+    animation: showUp 0.5s ease-out forwards;
+  
+    @keyframes showUp {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  }

@@ -1,0 +1,87 @@
+.componentHue24h{
+    .cpH24hNav{
+        display: flex;
+        justify-content: space-between;
+        border-bottom:  #8a8484 1px solid;
+     
+        .leftNavi{
+            color: #eee;
+            font-weight: 700;
+            padding-top: 10px;
+            text-align: center;
+            width: 80px;
+            height: 40px;
+            background-color: #00b0ff;
+
+        }
+        .rightNavi{
+            text-align: center;
+            font-size: 13px;
+            display: flex;
+            justify-content: space-between;
+            width: 380px;
+            color: #eee;
+            opacity: 0.7;
+        }
+    }
+    .cpDuLich{
+        padding-top: 40px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 300px 300px;
+        grid-gap: 15px;
+        .cpDuLichBox {
+         width: 232px;
+          position: relative;
+            &:nth-child(1){
+                grid-column-start: 1;
+                grid-column-end: 2;
+                grid-row-start: 1;
+                grid-row-end: 2;
+                
+              
+              }
+              &:nth-child(2){
+                grid-column-start: 2;
+                grid-column-end: 3;
+                grid-row-start: 1;
+                grid-row-end: 2;
+              }
+              &:nth-child(3){
+                grid-column-start: 3;
+                grid-column-end: 4;
+                grid-row-start: 1;
+                grid-row-end: 2;
+              }
+              &:nth-child(4){
+                grid-column-start: 1;
+                grid-column-end: 2;
+                grid-row-start: 2;
+                grid-row-end: 3;
+              }
+              &:nth-child(5){
+                grid-column-start: 2;
+                grid-column-end: 3;
+                grid-row-start: 2;
+                grid-row-end: 3;
+              }
+              &:nth-child(6){
+                grid-column-start: 3;
+                grid-column-end: 4;
+                grid-row-start: 2;
+                grid-row-end: 3;
+              }
+              img{
+               
+                width: 100%;
+  height: 100%;
+  object-fit: cover;
+              }
+            .cpH24hCat{
+              position: absolute;
+             top: 1px;
+            }
+        }
+      
+    }
+}

@@ -1,0 +1,73 @@
+.navbarTop{
+    background-color: #eee;
+    height: 30px;
+    .navbarContainer{
+       
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .left-nav-item{
+            display: flex;
+            align-items: center;
+            gap: 25px;
+            justify-content: center;
+            padding-left: 50px;
+            .item-left  {
+                display: flex;
+                align-items: center;
+                 color: black;
+                 cursor: pointer;
+                
+                 span{
+                    padding-top: 7px;
+                    font-size: 12px;
+                    font-weight: 500;
+                    height: 30px;
+                 }
+
+            }
+           
+        }
+        .right-nav-top{
+            position: relative;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding-right: 60px;
+            justify-content: center;
+
+            .item-top{
+                display: flex;
+                align-items: center;
+                 color: black;
+                 cursor: pointer;
+                
+                 span{
+                    font-size: 12px;
+                    font-weight: 500;
+                    height: 30px;
+                    cursor: pointer;
+                 }
+
+            }
+            .toLogin{
+                padding-left: 30px;
+                width: 60px;
+                height: 30px;
+                padding: 2px;
+                cursor: pointer;
+                img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    background-color: azure;
+                }
+                &:hover{
+                    background-color: rgb(174, 221, 192);
+                    color: white;
+                }
+            }
+        }
+    }
+}

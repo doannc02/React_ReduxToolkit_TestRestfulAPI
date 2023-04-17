@@ -1,0 +1,78 @@
+.categories-container {
+  padding-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .logout{
+    background-color: red;
+  }
+  .categories {
+    width: 70%;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  .btTop{
+    display: flex;
+    justify-content: space-between;
+  }
+  .add-button {
+ 
+    background-color: green;
+    color: white;
+  }
+  
+  .edit-button {
+    background-color: yellow;
+    color: black;
+  }
+  
+  .delete-button {
+    background-color: red;
+    color: white;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .page-buttons button {
+   
+  
+    background-color: #4CAF50;
+    color: white;
+    border: solid;
+    padding: 10px;
+    border-radius:5px;
+    
+    cursor: pointer;
+  }
+
+  .btnPre{
+    padding: 15px;
+  }
+  
+  

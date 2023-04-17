@@ -1,0 +1,62 @@
+.edit-category-container {
+  
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 90px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  .form-group{
+    display: flex;
+    justify-content: space-between;
+  }
+    h1 {
+      margin-bottom: 20px;
+      font-size: 30px;
+      font-weight: 500;
+      color: #bfe419;
+      padding-bottom: 40px;
+      padding-left: 40px;
+    }
+  
+    form {
+      display: flex;
+      flex-direction: column;
+  
+      label {
+        font-size: 15px;
+        font-weight: 400;
+        margin-bottom: 5px;
+        color: #333;
+        text-align: center;
+      }
+  
+      input {
+        width: 300px;
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        margin-bottom: 20px;
+       
+        &:focus {
+          outline: none;
+          border-color: #3f51b5;
+        }
+      }
+  
+      button {
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        font-size: 18px;
+        font-weight: 500;
+        color: #fff;
+        background-color: #3f51b5;
+        cursor: pointer;
+  
+        &:hover {
+          background-color: #2c3e50;
+        }
+      }
+    }
+  }
+  

@@ -1,17 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
+import { Provider } from 'react-redux';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
+
+
+import store from './redux/store';
+import "slick-carousel/slick/slick.css"; // import CSS của react-slick
+import "slick-carousel/slick/slick-theme.css"; // import CSS của react-slick
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+<Provider store={store}>
+
     <App />
-  </React.StrictMode>
+
+</Provider>
+</React.StrictMode>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();

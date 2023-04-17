@@ -1,0 +1,68 @@
+.footerInfo{font-size: 15px;
+    color: #515151;
+    .info{
+      color:#A4DAFF;
+      &:hover{
+        color: white;
+      }
+    }
+   }
+   .footer{
+   
+    position: absolute;
+   width: 100%;
+    background-color: #151515;
+    height: 450px;
+    padding-top:15px;
+    display: flex;
+    flex-direction: column;
+  align-items: center;
+   .footerLogo{
+    padding-top: 50px;
+   }
+   .duongThang{
+    width: 1000px;
+    padding-top: 70px;
+   border-bottom: #515151 1px solid;
+   opacity: 0.3;
+   }
+   .footerText{
+    color:#515151;
+    font-size: 14px;
+    width: 800px;
+    text-align: center;
+    padding: 20px;
+   }
+   .footerIcon{
+    position: relative;
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    div{
+      width: 70px;
+      font-size: 50px;
+    }
+  .insta{
+    position: absolute;
+  
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    border-radius: 1px;
+    color: #fff;
+    top: 18px;
+    left: 160px;
+    line-height: 50px;
+    vertical-align: middle;
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+  }
+   }
+   .footerCopy{
+    color: #515151;
+    font-size: 13px;
+   }
+   }

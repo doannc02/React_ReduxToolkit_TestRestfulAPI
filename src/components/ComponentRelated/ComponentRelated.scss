@@ -1,0 +1,48 @@
+.cpRe{
+    padding: 20px 0 5px 0 ;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    p{
+        font-weight: 500;
+        font-size: 22px;
+
+    }
+    .Related{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 300px;
+        grid-gap: 23px;
+        .box{
+            width: 225px;
+            &:nth-child(1){
+                grid-column-start: 1;
+                grid-column-end: 2;
+                grid-row-start: 1;
+                grid-row-end: 2;
+            }
+            &:nth-child(2){
+                grid-column-start: 2;
+                grid-column-end: 3;
+                grid-row-start: 1;
+                grid-row-end: 2;
+            }
+            &:nth-child(3){
+                grid-column-start: 3;
+                grid-column-end: 4;
+                grid-row-start: 1;
+                grid-row-end: 2;
+            }
+            img{
+                padding-top: 10px;
+                width: 100%;
+                height: 55%;
+                object-fit: cover;
+            }
+            p{
+                font-size: 17px;
+                font-weight: 500;
+            }
+        }
+    }
+}
